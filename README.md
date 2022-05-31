@@ -25,7 +25,7 @@ warning__comp._temperature_time
 critical_comp._temperature_time
 ```
 * changed labels smartmon metrics{disk} on metrics{device} 
-* changed generate values metrics{disk="/dev/sda"} to metrics{disk="sda"}
+* changed generate values metrics{device="/dev/sda"} to metrics{device="sda"}
 
 This allows you to set flexible trigger settings.
 
